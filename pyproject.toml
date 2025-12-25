@@ -14,7 +14,7 @@ dependencies = [
     "langchain-openai>=1.1.2",
     "openai>=2.11.0",
     "python-dotenv>=1.2.1",
-    "unstructured>=0.18.15",
+    "unstructured[docx,email,html,image,md,pdf,pdf-infer,pptx,xlsx]==0.18.15",
     "unstructured-inference>=1.1.2",
     "ipykernel>=7.1.0",
     "llama-cloud-services>=0.6.6",
@@ -26,4 +26,5 @@ dependencies = [
     "sentence-transformers>=5.2.0",
     "llama-index>=0.10.55",
     "langchain-chroma>=1.1.0",
+    "langchain-unstructured>=1.0.0",
 ]
